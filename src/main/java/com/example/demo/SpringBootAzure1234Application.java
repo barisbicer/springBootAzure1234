@@ -13,7 +13,7 @@ public class SpringBootAzure1234Application {
 
 	@GetMapping(value="/message")
 	public String getMethodName() {
-		return "baris bicer....................................baris.ucus";
+		return "baris bicer....................................baris.ucus sayisi 1000000";
 	}
 	
 	
