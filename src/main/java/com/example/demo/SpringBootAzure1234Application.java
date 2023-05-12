@@ -17,6 +17,11 @@ public class SpringBootAzure1234Application {
 	}
 	
 	
+	@GetMapping(value="/heas")
+	public String getMethodName2() {
+		return "baris bicer....................................Heassssssssssss";
+	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootAzure1234Application.class, args);
 	}
