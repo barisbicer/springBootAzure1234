@@ -19,7 +19,7 @@ public class SpringBootAzure1234Application {
 	
 	@GetMapping(value="/heas")
 	public String getMethodName2() {
-		return "baris bicer....................................Heassssssssssss";
+		return "baris bicer....................................Heassssssssssss-Ucus date";
 	}
 	
 	public static void main(String[] args) {
