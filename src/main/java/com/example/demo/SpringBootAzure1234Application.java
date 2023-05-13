@@ -22,6 +22,13 @@ public class SpringBootAzure1234Application {
 		return "baris bicer....................................Heassssssssssss-Ucus date";
 	}
 	
+	
+	@GetMapping(value="/heas")
+	public String getMethodName3() {
+		return "this message is coming from CI/CD process";
+	}
+	
+	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootAzure1234Application.class, args);
 	}
