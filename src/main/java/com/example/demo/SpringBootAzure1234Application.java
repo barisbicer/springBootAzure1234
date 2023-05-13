@@ -23,7 +23,7 @@ public class SpringBootAzure1234Application {
 	}
 	
 	
-	@GetMapping(value="/heas")
+	@GetMapping(value="/heasmessage")
 	public String getMethodName3() {
 		return "this message is coming from CI/CD process";
 	}
