@@ -9,10 +9,5 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
-stages:
-  - stage: Build 
-    jobs:
-      -  job: FirstJob
-         steps:
-           - bash: echo Build FirstJob
-       
+steps:
+  - script: echo Hello, world, changed!
